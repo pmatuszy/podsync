@@ -11,6 +11,9 @@ hostname = "https://my.test.host:4443"
 bind_address = "172.20.10.2"
 # Specify path for reverse proxy and only [A-Za-z0-9]
 path = "test"
+# Specify not to go directly to the server but via proxy available at this address
+proxy = "socks4://127.0.0.1:9050"
+
 
 # Configure where to store the episode data
 [storage]
